@@ -92,3 +92,14 @@ DIVIDE(
   CALCULATE(COUNTROWS(gla_training_simple), gla_training_simple[status] = "No Show"),
   totalEnrol
 )<tt>
+## 🚀 Use Cases
+
+- Track staff progress
+- Supplier risk assessments
+- Stakeholder reporting and executive summaries
+
+## 👤 Author
+
+**Ashaolu**  
+DDAT, Department for Work and Pensions  
+Specializing in health-focused coaching, data analysis, and stakeholder alignment.
