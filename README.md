@@ -44,7 +44,7 @@ Relationships: gla_staff_simple[staff_id] → gla_training_simple[staff_id]
 
 Core DAX measures that i made use of>>
 
-<tt>-- Core volumes
+```-- Core volumes
 Headcount = DISTINCTCOUNT(gla_staff_simple[staff_id])
 
 Learners Completed =
@@ -91,7 +91,9 @@ RETURN
 DIVIDE(
   CALCULATE(COUNTROWS(gla_training_simple), gla_training_simple[status] = "No Show"),
   totalEnrol
-)<tt>
+)```
+
+
 ## 🚀 Use Cases
 
 - Track staff progress
@@ -102,4 +104,4 @@ DIVIDE(
 
 **Ashaolu**  
 DDAT, Department for Work and Pensions  
-Specializing in health-focused coaching, data analysis, and stakeholder alignment.
+Specializing in health-focused coaching, data analysis, and stakeholder alignment.`
